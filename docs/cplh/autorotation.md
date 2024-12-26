@@ -1,0 +1,3 @@
+- enter on any uncommanded yaw
+- loss of oil pressure
+- RPM light and horn
