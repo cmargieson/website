@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Flying at the Standard Aerodrome
 
 - non-standard procedures are listed in ERSA, almost all aerodromes have non-standard procedures.

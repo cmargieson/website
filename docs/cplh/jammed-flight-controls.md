@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Jammed Flight Controls
 
 Left spin. Roll, settle still spinning, raise to cushion
