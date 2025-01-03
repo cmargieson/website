@@ -1,9 +1,8 @@
 ---
-draft: true
 tags: [computer]
 ---
 
-# Setting up Plex Home Media Server with Docker.
+# Plex and Docker
 
 ![Setting up Plex Home Media Server with Docker](./goal_light.svg#light)![Setting up Plex Home Media Server with Docker](./goal_dark.svg#dark)
 

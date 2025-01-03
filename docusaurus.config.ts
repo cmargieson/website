@@ -73,13 +73,6 @@ const config: Config = {
           position: "left",
           label: "CPL(H) Notes",
         },
-
-        {
-          type: "docSidebar",
-          sidebarId: "sailing",
-          position: "left",
-          label: "Sailing Notes",
-        },
       ],
     },
     footer: {
@@ -89,6 +82,10 @@ const config: Config = {
             {
               label: "Motorbike Routes",
               to: "/motorbike-routes",
+            },
+            {
+              label: "Sailing Calendar",
+              to: "/sailing-calendar",
             },
           ],
         },
