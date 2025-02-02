@@ -6,13 +6,13 @@ import { scale } from '@cloudinary/url-gen/actions/resize';
 export default function OptimizedImage({ publicId }) {
     const cld = new Cloudinary({
         cloud: {
-            cloudName: '<CLOUDINARY_CLOUD_NAME>',
+            cloudName: 'dbcp4hopu',
         },
     });
 
     const myImage = cld.image(`${publicId}`);
 
-    myImage.quality('auto').format('auto').resize(scale().width(480));
+    myImage.quality('auto').format('auto');
 
     return (
         <div>
