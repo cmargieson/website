@@ -38,6 +38,9 @@ const config: Config = {
       "classic",
       {
         docs: {
+          // Advanced use-case: functional editUrl
+          editUrl: ({ versionDocsDirPath, docPath }) =>
+            `https://github.com/cmargieson/website/edit/master/${versionDocsDirPath}/${docPath}`,
           sidebarPath: "./sidebars.ts",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -77,18 +80,6 @@ const config: Config = {
     },
     footer: {
       links: [
-        {
-          items: [
-            {
-              label: "Motorbike Routes",
-              to: "/motorbike-routes",
-            },
-            {
-              label: "Sailing Calendar",
-              to: "/sailing-calendar",
-            },
-          ],
-        },
         {
           items: [
             {

@@ -18,11 +18,11 @@ The final product:
 
 - **Sabnzdb** manages the usenet downloads.
 
+<!-- truncate -->
+
 :::note
 Usenet is a decentralized network for file sharing.
 :::
-
-<!-- truncate -->
 
 ## Docker Engine
 
