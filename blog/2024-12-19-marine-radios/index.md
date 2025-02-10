@@ -20,6 +20,8 @@ You must hold the necessary qualifications to operate VHF or HF marine radio equ
 
 - To operate a station with **HF equipment**, you must have a **Long Range Operator Certificate of Proficiency (LROCP)**
 
+The radio is under the control of the vessel's master, skipper, or safety officer.
+
 ## Radio Waves
 
 A hertz (Hz) is a unit of frequency that measures how often something happens per second. For example, if something vibrates 10 times per second, it has a frequency of 10 hertz.
@@ -30,11 +32,11 @@ The electromagnetic spectrum is organized by frequency, radio waves have lowest 
 
 The radio spectrum is allocated by the International Telecommunication Union (ITU) for different radio technologies. Marine radio is allocated to frequencies in the Very High Frequency (VHF) and High Frequency (HF) spectrum.
 
-| Name               | Abbreviation | Frequency       |
-| ------------------ | ------------ | --------------- |
-| Very High Freqency | VHF          | 30 - 300 MHz    |
-| High Frequency     | HF           | 3 - 30 MHz      |
-| Medium Frequency   | MF           | 300 - 3,000 kHz |
+| Name                | Abbreviation | Frequency       |
+| ------------------- | ------------ | --------------- |
+| Very High Frequency | VHF          | 30 - 300 MHz    |
+| High Frequency      | HF           | 3 - 30 MHz      |
+| Medium Frequency    | MF           | 300 - 3,000 kHz |
 
 - **VHF** signals travel as **ground waves** in a straight line and can only reach as far as the line of sight between antennas. VHF has a range of about **3 nm**.
 - **HF** signals travel as **sky waves** bouncing off the ionosphere increasing their range to **100 - 400 nm**.
@@ -62,8 +64,7 @@ An antenna tuning unit (ATU) on an HF radio improves power transfer by matching 
 
 Fuses are safety devices that protect electrical circuits from excessive current. If your device draws too much current, the fuse will interrupt the flow of electricity to prevent overheating and fire. You should only replace a fuse with the exact one recommended by the manufacturer.
 
-<details>
-<summary>Lead Acid Batteries</summary>
+#### Lead Acid Batteries
 
 The lead-acid battery was the first rechargeable battery. They have been superseded by sealed batteries that do not require maintenence.
 
@@ -73,16 +74,14 @@ Lead-acid batteries produce hydrogen gas when being charged, which is highly fla
 
 Lead-acid batteries use sulfuric acid as their electrolyte. The specific gravity of the electrolyte reflects the battery's charge. A hydrometer is used to measure specific gravity. A fully charged lead-acid battery has a specific gravity of 1.250. You can replace eveporated electrolyte with distilled water - using sea water will cause the battery to self-discharge.
 
-</details>
-
 ## Coast Stations
 
-Australia maintains two High Frequency (HF) coast stations: Wiluna in Western Australia for the west coast and Charleville in Queensland for the east coast. Both stations are centrally managed by the Rescue Coordination Centre (RCC) in Canberra, operating under the callsign "RCC Australia".
+Australia maintains two High Frequency (HF) coast stations: Wiluna in Western Australia for the west coast and Charleville in Queensland for the east coast. Both stations are centrally managed by the Rescue Coordination Centre (RCC) in Canberra, operating under the call-sign "RCC Australia".
 
 Services provided include:
 
 - Continuous watch of HF distress signals
-- Continuous watch on HF DSC distress signnals
+- Continuous watch on HF DSC distress signals
 - HF Weather forecasts and warnings
 
 | HF                         | Purpose                                                                                                 |
@@ -92,10 +91,11 @@ Services provided include:
 
 ## Limited Coast Stations
 
-States and territories operate Very High Frequency (VHF) limited coast stations, identified by the callsign "Marine Radio" followed by the state's name.
+States and territories operate Very High Frequency (VHF) limited coast stations, identified by the call-sign "Marine Radio" followed by the state's name.
 
 | VHF Channel | Purpose                               |
 | ----------- | ------------------------------------- |
+| 6           | Ship to Rescue Aircraft               |
 | 16          | Distress, Safety and Calling.         |
 | 73          | Ship to Shore - Recreational Vessels. |
 | 72 & 77     | Ship to Ship - Recreational Vessels.  |
@@ -103,12 +103,14 @@ States and territories operate Very High Frequency (VHF) limited coast stations,
 Services provided include:
 
 - Continuous watch of VHF distress signals
-- Continuous watch on VHF DSC distress signnals
-- Logging on and off
+- Continuous watch on VHF DSC distress signals
+- Communications relating to the safety and movements of vessels in their area (for example Logging on and off)
 
 ## Radio Calls and Messages
 
 Radio calls are short phrases used to initiate a communication. Radio messages are the content of the message being communicated.
+
+Your call sign or identification must be included with every transmission. The receiving station (the one being called) has the primary authority to dictate how the communication will proceed.
 
 ### Routine Calls and Messages
 
@@ -120,7 +122,7 @@ To initiate a radio call:
 
 3. **Follow the correct format:** Structure your call as follows:
 
-   - **Call the station.** State the name or call sign of the station you are contacting.
+   - **Call the station.** State the call sign or identification of the station you are contacting.
    - **Identify yourself.** Provide your own call sign or identification.
    - **State your position.** Indicate your location (e.g. distance and bearing).
    - **Describe your request.** State the nature of your message.
@@ -135,12 +137,12 @@ You have established communication once the station being called responds. You c
 
 Example message:
 
-> "Illusion, registration alpha bravo charlie one two three november, inside Sydney Heads travelling North to Broken Bay arriving 1500. Three poeple on board. Mobile number: 0412 345 678. Over."
+> "Illusion, registration alpha bravo charlie one two three november, inside Sydney Heads traveling North to Broken Bay arriving 1500. Three people on board. Mobile number: 0412 345 678. Over."
 
 ### Distress Calls and Messages
 
 :::warning
-Do not transmit false or misleading distress, urgency, or safety messages. This is a serious offense that can result in severe penalties, including imprisonment, under the Radiocommunications Act 1992.
+Do not transmit false or misleading distress, urgency, or safety messages. This is a serious offense that can result in severe penalties, including imprisonment, under the Radio-communications Act 1992.
 :::
 
 Distress calls may be directed to a specific station or broadcast to all stations. Mayday is the most urgent, followed by Pan-Pan, and then Securite. Mayday has the highest priority and must be given immediate attention, even if other transmissions are in progress.
@@ -159,4 +161,36 @@ No response is expected after making a mayday call, broadcast your message after
 
 Example message:
 
-> Mayday Illision. Three nautical miles East of Barrenjoey. Sinking. Three people on board. EPIRB activated. Over.
+> Mayday Illusion. Three nautical miles East of Barrenjoey. Sinking. Three people on board. EPIRB activated. Over.
+
+## Digital Selective Calling
+
+What information is sent in a DSC call?
+What is the format of MMSI numbers?
+Connecting GPS to DSC
+What to do on receiving an alert?
+
+## Emergency Position-indicating Radio-beacons
+
+How long should the 406 MHz EPIRB be capable of transmitting?
+What signal is transmitted by a 406 MHz EPIRB?
+When may an activated EPIRB be switched off?
+How can an EPIRB be tested?
+Accidental activations
+
+What type of orbit is used by the CASPAS-SARSAT LEO satellites?
+What type of orbit is used by the CASPAS-SARSAT GEO satellites?
+What is the viewing footprint of the CASPAS-SARSAT satellites?
+Duration of orbits
+
+## Search and Rescue Transponders
+
+---
+
+Batteries:
+What voltage of two batteries in series/parallel?
+
+General:
+Purpose of radio (broadcast) vs EPIRB?
+SIMPLEX vs DUPLEX historical for telephone calls
+Repeater stations
