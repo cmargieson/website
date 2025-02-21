@@ -32,11 +32,10 @@ The electromagnetic spectrum is organized by frequency, radio waves have lowest 
 
 The radio spectrum is allocated by the International Telecommunication Union (ITU) for different radio technologies. Marine radio is allocated to frequencies in the Very High Frequency (VHF) and High Frequency (HF) spectrum.
 
-| Name                | Abbreviation | Frequency       |
-| ------------------- | ------------ | --------------- |
-| Very High Frequency | VHF          | 30 - 300 MHz    |
-| High Frequency      | HF           | 3 - 30 MHz      |
-| Medium Frequency    | MF           | 300 - 3,000 kHz |
+| Name                | Abbreviation | Frequency    |
+| ------------------- | ------------ | ------------ |
+| Very High Frequency | VHF          | 30 - 300 MHz |
+| High Frequency      | HF           | 3 - 30 MHz   |
 
 - **VHF** signals travel as **ground waves** in a straight line and can only reach as far as the line of sight between antennas. VHF has a range of about **3 nm**.
 - **HF** signals travel as **sky waves** bouncing off the ionosphere increasing their range to **100 - 400 nm**.
@@ -57,14 +56,15 @@ An antenna tuning unit (ATU) on an HF radio improves power transfer by matching 
 
 ### Power Supply
 
-**Voltage (V)** is **how strong** the electrical current is. **Ampere-Hours (Ah)** is **how much** electricity the battery can store
+**Voltage (V)** is **how strong** the electrical current is. **Ampere-Hours (Ah)** is **how much** electricity your battery can store
 
 - Connecting batteries in **series** increases the **voltage**.
 - Connecting batteries in **parallel** increases the **ampere hours**.
 
 Fuses are safety devices that protect electrical circuits from excessive current. If your device draws too much current, the fuse will interrupt the flow of electricity to prevent overheating and fire. You should only replace a fuse with the exact one recommended by the manufacturer.
 
-#### Lead Acid Batteries
+<details>
+<summary>Lead Acid Batteries</summary>
 
 The lead-acid battery was the first rechargeable battery. They have been superseded by sealed batteries that do not require maintenence.
 
@@ -73,6 +73,8 @@ Each cell within a lead-acid battery produces 2 volts. A typical 12-volt car bat
 Lead-acid batteries produce hydrogen gas when being charged, which is highly flammable. Charging batteries need proper ventilation to prevent the accumulation of potentially explosive gases.
 
 Lead-acid batteries use sulfuric acid as their electrolyte. The specific gravity of the electrolyte reflects the battery's charge. A hydrometer is used to measure specific gravity. A fully charged lead-acid battery has a specific gravity of 1.250. You can replace eveporated electrolyte with distilled water - using sea water will cause the battery to self-discharge.
+
+</details>
 
 ## Coast Stations
 
@@ -102,8 +104,8 @@ States and territories operate Very High Frequency (VHF) limited coast stations,
 
 Services provided include:
 
-- Continuous watch of VHF distress signals
-- Continuous watch on VHF DSC distress signals
+- Watch of VHF distress signals
+- Watch on VHF DSC distress signals
 - Communications relating to the safety and movements of vessels in their area (for example Logging on and off)
 
 ## Radio Calls and Messages
@@ -111,6 +113,27 @@ Services provided include:
 Radio calls are short phrases used to initiate a communication. Radio messages are the content of the message being communicated.
 
 Your call sign or identification must be included with every transmission. The receiving station (the one being called) has the primary authority to dictate how the communication will proceed.
+
+### Digital Selective Calling
+
+Digital Selective Calling (DSC) allows you to address your call to a specific radio and suggest a working frequency before switching to a voice channel to send your message. DSC calls are more reliable than voice communication, especially in noisy or weak signal conditions.
+
+Each radio equipped with DSC has a unique Maritime Mobile Service Identity (MMSI) number, similar to a phone number. In an emergency, a DSC distress call can be sent with the push of a button, automatically including the vessel's MMSI, position (if connected to a GPS), and the nature of the distress.
+
+An MMSI is a nine-digit number. The first three digits are a country code, and the remaining six digits are a unique ID for that vessel.
+
+Numbers may be added to the beginning of the MMSI:
+
+| Number | Station Type             |
+| ------ | ------------------------ |
+| 0      | Coast Station            |
+| 1      | Search & Rescue Aircraft |
+| 8      | Hand-held Radio          |
+
+When you receive a DSC call, determine if it is a distress or routine call. Distress alerts take highest priority.
+
+- **Distress Call:** Listen on channel 16 kHz for further information. The alert will usually be followed by a voice message explaining the situation.
+- **Routine Call:** Switch to the working channel indicated in the DSC call to communicate with the calling vessel.
 
 ### Routine Calls and Messages
 
@@ -131,13 +154,13 @@ To initiate a radio call:
 
 Example call:
 
-> "New South Wales Marine Radio, this is sailing boat Illusion inside Sydney Heads with logon details. Suggest channel 73. Over."
+> New South Wales Marine Radio, this is sailing boat Illusion inside Sydney Heads with logon details. Suggest channel 73. Over.
 
 You have established communication once the station being called responds. You can now send the content of your message including your identity.
 
 Example message:
 
-> "Illusion, registration alpha bravo charlie one two three november, inside Sydney Heads traveling North to Broken Bay arriving 1500. Three people on board. Mobile number: 0412 345 678. Over."
+> Illusion, registration alpha bravo charlie one two three november, inside Sydney Heads traveling North to Broken Bay arriving 1500. Three people on board. Mobile number: 0412 345 678. Over.
 
 ### Distress Calls and Messages
 
@@ -155,20 +178,13 @@ Distress calls follow the same format as routine calls, but instead of naming th
 
 Example call:
 
-> "Mayday, Mayday, Mayday. This is sailing boat Illusion, Illusion, Illusion.
+> Mayday, Mayday, Mayday. This is sailing boat Illusion, Illusion, Illusion.
 
 No response is expected after making a mayday call, broadcast your message after a brief pause. All other stations must stop transmitting.
 
 Example message:
 
 > Mayday Illusion. Three nautical miles East of Barrenjoey. Sinking. Three people on board. EPIRB activated. Over.
-
-## Digital Selective Calling
-
-What information is sent in a DSC call?
-What is the format of MMSI numbers?
-Connecting GPS to DSC
-What to do on receiving an alert?
 
 ## Emergency Position-indicating Radio-beacons
 
@@ -186,9 +202,6 @@ Duration of orbits
 ## Search and Rescue Transponders
 
 ---
-
-Batteries:
-What voltage of two batteries in series/parallel?
 
 General:
 Purpose of radio (broadcast) vs EPIRB?
