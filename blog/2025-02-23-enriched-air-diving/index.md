@@ -1,5 +1,5 @@
 ---
-draft: true
+slug: enriched-air-diving
 tags: [diving]
 ---
 

@@ -68,4 +68,4 @@ Casa provides guidance to help you understand and follow the rules. If you use t
 
 ## External Links
 
-- [Civil Aviation Safety Authority (CASA)](https://www.casa.gov.au/)
+- [Civil Aviation Safety Regulations 1998 (CASR)](https://www.casa.gov.au/search-centre/rules?search_api_fulltext=&field_dt_published%5Bmin%5D=&field_dt_published%5Bmax%5D=&sort_by=title&sort_order=ASC&field_rule_type%5B%5D=CASR)

@@ -1,10 +1,11 @@
 ---
+slug: marine-radios
 tags: [sailing]
 ---
 
 # Marine Radios
 
-An introduction to marine radio communication, covering different types of marine radios (VHF, HF, EPIRBs) and their operation.
+An introduction to marine radio communication, covering different types of marine radios (VHF, HF, EPIRBs) and their operation. VHF (Very High Frequency) radio provides short-range communication suitable for coastal areas.  HF (High Frequency) radio enables communication over much greater distances, often spanning entire continents. For global communication satellite phones offer voice and data capabilities, while EPIRBs are designed to automatically transmit distress signals to alert rescue services worldwide.
 
 <!-- truncate -->
 

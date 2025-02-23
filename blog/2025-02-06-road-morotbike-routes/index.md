@@ -1,4 +1,4 @@
 ---
-draft: true
+slug: road-motorbike-routes
 tags: [motorbike]
 ---

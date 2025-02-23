@@ -1,5 +1,5 @@
 ---
-draft: true
+slug: great-wall
 tags: [travel]
 
 ---

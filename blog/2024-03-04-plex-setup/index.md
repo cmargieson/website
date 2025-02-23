@@ -1,4 +1,5 @@
 ---
+slug: plex-setup
 tags: [computer]
 ---
 
