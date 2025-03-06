@@ -1,7 +1,6 @@
 ---
 slug: great-wall
 tags: [travel]
-
 ---
 
 import CloudinaryImage from '@site/src/components/CloudinaryImage';
