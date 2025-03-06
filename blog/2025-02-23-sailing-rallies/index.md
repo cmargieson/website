@@ -5,6 +5,8 @@ tags: [sailing]
 
 # Sailing Rallies
 
+<!-- truncate -->
+
 ## America's Great-loop Cruisers' Association
 
 **Website:** [https://www.greatloop.org/](https://www.greatloop.org/)
