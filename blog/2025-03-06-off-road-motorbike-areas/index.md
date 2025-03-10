@@ -17,6 +17,12 @@ import CloudinaryImage from '@site/src/components/CloudinaryImage';
 
 Follow the well-maintained Red Hill Road between Kulnura and Wyong. The busy [Central Coast Mountain Bike Club](https://www.ccmtb.com.au/) trails are at the Wyong end. Middle Ridge Road South to Palmdale is closed to prevent illegal dumping. Many fun diversions, mostly leading nowhere. 
 
+### Watagans National Park
+
+**Topo Map:** [Wyong 9131-2N](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/9131-2N+WYONG.pdf) [Dooralong 9131-1S](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/9131-1S+DOORALONG.pdf) [Morisset 9131-1N](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/9131-1N+MORISSET.pdf) [Quorrobolong 9132-2S](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/9132-2S+QUORROBOLONG.pdf)
+
+Watagan Forest Road starts at Wyong State Forest near Jilliby and tracks North through the Jilliby State Conservation Area and Olney State Forest before entering Watagans National Park. Watagan Forest Road is closed at the North near Quorrobolong due to a landslip. Exit via Heaton Road to Awaba near the [Awaba Mountain Bike Trails](https://hmba.asn.au/riding-with-hmba/awaba-mountain-bike-park/).
+
 ## Lithgow
 
 ### Lisdale State Forest
