@@ -48,6 +48,8 @@ const config: Config = {
         blog: {
           // Serve the blog at the site's root
           routeBasePath: "/",
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex]
         },
         theme: {
           customCss: "./src/css/custom.css",
