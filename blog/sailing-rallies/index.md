@@ -1,6 +1,7 @@
 ---
 slug: sailing-rallies
 tags: [sailing]
+draft: true
 ---
 
 # Sailing Rallies

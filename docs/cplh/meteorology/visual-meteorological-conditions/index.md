@@ -3,7 +3,7 @@ import ThemedImage from '@theme/ThemedImage';
 
 # Visual Meteorological Conditions
 
-## Class G Airspace (Uncontrolled)
+## Class G Airspace (Uncontrolled Aerodromes)
 
 ![Class G Airspace (Uncontrolled)](./vmc-g_light.svg#light)![Class G Airspace (Uncontrolled)](./vmc-g_dark.svg#dark)
 
