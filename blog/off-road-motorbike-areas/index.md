@@ -7,15 +7,13 @@ import CloudinaryImage from '@site/src/components/CloudinaryImage';
 
 # Off-road Motorbike Areas
 
-<!-- truncate -->
-
 ## Central Coast
 
 ### Ourimbah State Forest
 
 **Topo Map:** [Wyong 9131-2N](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/9131-2N+WYONG.pdf)
 
-Follow the well-maintained Red Hill Road between Kulnura and Wyong. The busy [Central Coast Mountain Bike Club](https://www.ccmtb.com.au/) trails are at the Wyong end. Middle Ridge Road South to Palmdale is closed to prevent illegal dumping. Many fun diversions, mostly leading nowhere. 
+Follow the well-maintained Red Hill Road between Kulnura and Wyong. The busy [Central Coast Mountain Bike Club](https://www.ccmtb.com.au/) trails are at the Wyong end. Middle Ridge Road South to Palmdale is closed to prevent illegal dumping. Many fun diversions, mostly leading nowhere.
 
 ### Watagans National Park
 
@@ -44,4 +42,3 @@ Enter Sugarmans Road from the Great Western Highway at the North of the Park. Tr
 **Topo Map:** [Lithgow 8931-3S](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/8931-3S+LITHGOW.pdf)
 
 Rydal 4WD Area is found at the Eastern end of Bloody Cutting Road South of Rydal. Many steep, rocky sections most with alternative escapes back to Bloody Cutting Road. Unavoidable steep climbs to the North to enter Lisdale Satate Forest.
-

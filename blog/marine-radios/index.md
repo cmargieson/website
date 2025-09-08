@@ -5,13 +5,11 @@ tags: [sailing]
 
 # Marine Radios
 
-VHF and HF radios can transmit messages to all stations within range. VHF (Very High Frequency) radio provides short-range communication suitable for coastal areas.  HF (High Frequency) radio enables communication over much greater distances, often spanning entire continents.
+VHF and HF radios can transmit messages to all stations within range. VHF (Very High Frequency) radio provides short-range communication suitable for coastal areas. HF (High Frequency) radio enables communication over much greater distances, often spanning entire continents.
 
-Satellite phones provide private, point-to-point communication, enabling direct calls to individuals globally.  
+Satellite phones provide private, point-to-point communication, enabling direct calls to individuals globally.
 
 Emergency Position-indicating Radio-beacons (EPIRBs) are designed to automatically transmit distress signals to alert rescue services worldwide.
-
-<!-- truncate -->
 
 ## Legislation
 

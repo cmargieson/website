@@ -7,8 +7,6 @@ tags: [diving]
 
 Enriched air, containing over 21% oxygen (commonly 32% or 36%), extends dive time by increasing no-decompression limits, but it reduces the maximum safe diving depth.
 
-<!-- truncate -->
-
 The International Standard Atmosphere (ISA) is a model of the pressure exerted by the Earth's atmosphere. At sea level, the pressure of a standard atmosphere is:
 
 $$
