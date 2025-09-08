@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Communicating at Aerodromes
 
 ## Class G Aerodromes (Uncontrolled)
@@ -21,9 +25,6 @@ You must broadcast whenever you think it's necessary to avoid a collision with a
 - The name of the aerodrome, followed by the word TRAFFIC.
 - Your aircraft's type and callsign.
 - Your current altitude (if appropriate).
-
-
-
 
 ## Class C & D Aerodromes (Controlled)
 
