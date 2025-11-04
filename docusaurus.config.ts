@@ -49,7 +49,7 @@ const config: Config = {
           // Serve the blog at the site's root
           routeBasePath: "/",
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex]
+          rehypePlugins: [rehypeKatex],
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -84,6 +84,10 @@ const config: Config = {
       links: [
         {
           items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/cmargieson",
+            },
             {
               label: "Mastodon",
               href: "https://mastodon.social/@nervousechidna",

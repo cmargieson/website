@@ -42,3 +42,12 @@ Enter Sugarmans Road from the Great Western Highway at the North of the Park. Tr
 **Topo Map:** [Lithgow 8931-3S](https://portal.spatial.nsw.gov.au/download/NSWTopographicMaps/DTDB_GeoReferenced_Raster_CollarOn_161070/2022/25k/8931-3S+LITHGOW.pdf)
 
 Rydal 4WD Area is found at the Eastern end of Bloody Cutting Road South of Rydal. Many steep, rocky sections most with alternative escapes back to Bloody Cutting Road. Unavoidable steep climbs to the North to enter Lisdale Satate Forest.
+
+## Melbourne
+### Wombat State Forest (East Circuit)
+
+Enter Macedon Plantation from Black Forest Drive and head West on Fingerpost Road to the Wombat Mountain Bike Trails. Join Chettle Road continuing west to Blackwood. Return East via O'Briens Road to the south of the park. Can get very muddy when wet.
+
+### Wombat State Forest (West)
+
+Balt Forestry Camp
