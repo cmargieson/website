@@ -9,6 +9,20 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const postsByYear = posts.reduce(
+  (acc, post) => {
+    const year = post.data.pubDate.getFullYear();
+    if (!acc[year]) {
+      acc[year] = [];
+    }
+    acc[year].push(post);
+    return acc;
+  },
+  {} as Record<number, typeof posts>,
+);
+
+const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
 ---
 
 <!doctype html>
@@ -20,15 +34,18 @@ const posts = (await getCollection("blog")).sort(
     <Header />
     <main>
       <section>
-        <ul>
-          {
-            posts.map((post) => (
-              <li>
-                <a href={`/blog/${post.id}/`}>{post.data.title}</a>
-              </li>
-            ))
-          }
-        </ul>
+        {
+          years.map((year) => (
+              <h2 class="year-heading">{year}</h2>
+              <ul>
+                {postsByYear[Number(year)].map((post) => (
+                  <li>
+                    <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+                  </li>
+                ))}
+              </ul>
+          ))
+        }
       </section>
     </main>
     <Footer />
