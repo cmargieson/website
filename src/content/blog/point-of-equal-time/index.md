@@ -1,11 +1,7 @@
 ---
-layout: ../../../layouts/PostLayout.astro
 title: "Point of Equal Time"
 description: ""
 pubDate: 2026-05-25
-author: "Craig Margieson"
-tags: ["helicopter"]
-draft: false
 ---
 
 # Point of Equal Time

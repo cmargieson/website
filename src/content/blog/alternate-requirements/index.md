@@ -1,11 +1,7 @@
 ---
-layout: ../../../layouts/PostLayout.astro
 title: "Alternate Requirements"
 description: ""
 pubDate: 2026-05-25
-author: "Craig Margieson"
-tags: ["helicopter"]
-draft: false
 ---
 
 # Alternate Requirements

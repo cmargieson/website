@@ -1,11 +1,7 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Civil Aviation Legislation"
 description: ""
 pubDate: 2026-05-25
-author: "Craig Margieson"
-tags: ["sailing"]
-draft: false
 ---
 
 # Civil Aviation Legislation

@@ -1,11 +1,7 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Marine Radios"
 description: ""
 pubDate: 2026-05-25
-author: "Craig Margieson"
-tags: ["sailing"]
-draft: false
 ---
 
 # Marine Radios
