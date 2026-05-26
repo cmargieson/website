@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
 const posts = (await getCollection("blog")).sort(
@@ -30,5 +31,6 @@ const posts = (await getCollection("blog")).sort(
         </ul>
       </section>
     </main>
+    <Footer />
   </body>
 </html>
