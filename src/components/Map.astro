@@ -1,16 +1,11 @@
 ---
 import "leaflet/dist/leaflet.css";
 
-interface Props {
-  geojsonUrl: string;
-  height?: string;
-}
-
-const { geojsonUrl, height = "400px" } = Astro.props;
+const { geojson } = Astro.props;
 ---
 
-<geo-json-map data-geojson={geojsonUrl}>
-  <div class="map-container" style={`height: ${height};`}></div>
+<geo-json-map data-geojson={JSON.stringify(geojson)}>
+  <div class="map-container" style="height: 400px; width: 100%;"></div>
 </geo-json-map>
 
 <script>
@@ -18,10 +13,10 @@ const { geojsonUrl, height = "400px" } = Astro.props;
 
   class GeoJsonMap extends HTMLElement {
     async connectedCallback() {
-      const geojsonUrl = this.dataset.geojson;
       const mapContainer = this.querySelector(".map-container") as HTMLElement;
+      const rawGeojson = this.dataset.geojson;
 
-      if (!geojsonUrl || !mapContainer) return;
+      if (!rawGeojson || !mapContainer) return;
 
       const map = L.map(mapContainer).setView([0, 0], 2);
 
@@ -32,16 +27,13 @@ const { geojsonUrl, height = "400px" } = Astro.props;
       }).addTo(map);
 
       try {
-        const response = await fetch(geojsonUrl);
-        if (!response.ok)
-          throw new Error(`Failed to load GeoJSON: ${response.statusText}`);
-        const geojsonData = await response.json();
+        const geojsonData = JSON.parse(rawGeojson);
 
         const routeLayer = L.geoJSON(geojsonData, {}).addTo(map);
 
         map.fitBounds(routeLayer.getBounds());
       } catch (error) {
-        console.error("Error loading GeoJSON:", error);
+        console.error("Error parsing or rendering GeoJSON data:", error);
       }
     }
   }
