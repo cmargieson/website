@@ -9,8 +9,6 @@ const { geojson } = Astro.props;
 </geo-json-map>
 
 <script>
-  import L from "leaflet";
-
   class GeoJsonMap extends HTMLElement {
     async connectedCallback() {
       const mapContainer = this.querySelector(".map-container") as HTMLElement;
@@ -18,20 +16,34 @@ const { geojson } = Astro.props;
 
       if (!rawGeojson || !mapContainer) return;
 
-      const map = L.map(mapContainer).setView([0, 0], 2);
-
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution:
-          '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      }).addTo(map);
-
       try {
+        const L = (await import("leaflet")).default;
+
+        // 2. Fix for broken default marker icons in bundlers
+        delete (L.Icon.Default.prototype as any)._getIconUrl;
+        L.Icon.Default.mergeOptions({
+          iconRetinaUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
+          iconUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
+          shadowUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+        });
+
+        const map = L.map(mapContainer).setView([0, 0], 2);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 19,
+          attribution:
+            '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }).addTo(map);
+
         const geojsonData = JSON.parse(rawGeojson);
+        const routeLayer = L.geoJSON(geojsonData).addTo(map);
 
-        const routeLayer = L.geoJSON(geojsonData, {}).addTo(map);
-
-        map.fitBounds(routeLayer.getBounds());
+        if (routeLayer.getBounds().isValid()) {
+          map.fitBounds(routeLayer.getBounds());
+        }
       } catch (error) {
         console.error("Error parsing or rendering GeoJSON data:", error);
       }
