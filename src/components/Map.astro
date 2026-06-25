@@ -1,11 +1,11 @@
 ---
 import "leaflet/dist/leaflet.css";
 
-const { geojson } = Astro.props;
+const { geojson, maxZoom = 19 } = Astro.props;
 ---
 
-<geo-json-map data-geojson={JSON.stringify(geojson)}>
-  <div class="map-container" style="height: 400px; width: 100%;"></div>
+<geo-json-map data-geojson={JSON.stringify(geojson)} data-max-zoom={maxZoom}>
+  <div class="map-container" style="height: 600px; width: 100%;"></div>
 </geo-json-map>
 
 <script>
@@ -42,7 +42,9 @@ const { geojson } = Astro.props;
         const routeLayer = L.geoJSON(geojsonData).addTo(map);
 
         if (routeLayer.getBounds().isValid()) {
-          map.fitBounds(routeLayer.getBounds());
+          map.fitBounds(routeLayer.getBounds(), {
+            maxZoom: parseInt(this.dataset.maxZoom || "19", 10),
+          });
         }
       } catch (error) {
         console.error("Error parsing or rendering GeoJSON data:", error);
