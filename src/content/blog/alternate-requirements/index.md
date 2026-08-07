@@ -1,7 +1,7 @@
 ---
 title: "Alternate Requirements"
 description: ""
-pubDate: 2026-05-25
+pubDate: 2023-09-09
 ---
 
 # Alternate Requirements
