@@ -1,7 +1,7 @@
 ---
 title: "Enriched Air Diving"
 description: "Enriched air extends dive time by increasing no-decompression limits, but reduces the maximum safe diving depth."
-pubDate: 2026-05-25
+pubDate: 2025-01-30
 ---
 
 # Enriched Air Diving
