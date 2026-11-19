@@ -4,7 +4,11 @@ description: ""
 pubDate: 2026-06-01
 ---
 
-import { CldImage } from "astro-cloudinary";
+import { Image } from "astro:assets";
+import tomatoClownfish from "./tomato-clownfish.jpg";
+import lizardfish from "./lizardfish.jpg";
+import staghornCoral from "./staghorn-coral.jpg";
+import softCoral from "./soft-coral.jpg";
 
 # Diving Cairns
 
@@ -19,57 +23,29 @@ Diving Flynn and Milln Reefs reveals widespread bleaching, storm rubble, and Cro
 | Flynn Reef  | Little Tracy's   | 12 - 18m  | Sloping wall and hard plate coral gardens, staghorn corals.                        |
 
 <figure>
-  <CldImage
-    src="P6010029_a4jvve"
-    width={1600}
-    height={1200}
+  <Image
+    src={tomatoClownfish}
     alt="Tomato clownfish in a bubble-tip anemone"
-    sizes="100vw"
     loading="eager"
-    fetchpriority="high"
   />
   {/* prettier-ignore */}
   <figcaption>Tomato Clownfish (Amphiprion frenatus) in a Bubble-Tip Anemone (Entacmaea quadricolor).</figcaption>
 </figure>
 
 <figure>
-  <CldImage
-    src="P6020112_louhvd"
-    width={1600}
-    height={1200}
-    alt="Lizardfish"
-    sizes="100vw"
-    loading="eager"
-    fetchpriority="high"
-  />
+  <Image src={lizardfish} alt="Lizardfish" />
   {/* prettier-ignore */}
   <figcaption>Lizardfish (Saurida gracilis / synodus).</figcaption>
 </figure>
 
 <figure>
-  <CldImage
-    src="P6030204_dvi9pu"
-    width={1600}
-    height={1200}
-    alt="Staghorn Coral"
-    sizes="100vw"
-    loading="eager"
-    fetchpriority="high"
-  />
+  <Image src={staghornCoral} alt="Staghorn Coral" />
   {/* prettier-ignore */}
   <figcaption>Staghorn Coral (Acropora tenuis).</figcaption>
 </figure>
 
 <figure>
-  <CldImage
-    src="P6020082_tnucja"
-    width={1600}
-    height={1200}
-    alt="Soft Coral"
-    sizes="100vw"
-    loading="eager"
-    fetchpriority="high"
-  />
+  <Image src={softCoral} alt="Soft Coral" />
   {/* prettier-ignore */}
   <figcaption>Soft Coral (Dendronephthya sp.).</figcaption>
 </figure>
