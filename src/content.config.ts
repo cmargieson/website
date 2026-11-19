@@ -13,6 +13,7 @@ const blog = defineCollection({
 			// Transform string to Date object
 			pubDate: z.coerce.date(),
 			tags: z.array(z.string()).optional(),
+			draft: z.boolean().optional(),
 		}),
 });
 
