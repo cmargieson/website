@@ -38,6 +38,7 @@ const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a));
                 {postsByYear[Number(year)].map((post) => (
                   <li>
                     <a href={`/blog/${post.id}/`}>{post.data.title}</a>
+                    {import.meta.env.DEV && post.data.draft && <span> (draft)</span>}
                   </li>
                 ))}
               </ul>
